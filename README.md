@@ -10,9 +10,10 @@
 
 <h1>Memory Game</h1>
 
-  <a href="#">Instructions</a>
-
-  <a href="#">Game</a>
+ <div class="subhead">
+   <a href="#">Instructions</a>
+   <a href="#">Game</a>
+ </div>
 
 <h2>Instructions</h2>
 
