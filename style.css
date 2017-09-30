@@ -2,6 +2,12 @@ body {
     text-align: center;
 }
 
+header {
+    background-color: #f15b31;
+    color: #ffffff;
+    padding: 30px 20px;
+}
+
 a {
     text-decoration: none;
 }
@@ -26,7 +32,7 @@ h2 {
     font-size: 20px;
 }
 
-.subhead {
+nav {
    font-family: Raleway;
    color: #f15b31;
    letter-spacing: 1px;
