@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    margin: 0;
 }
 
 header {
@@ -22,6 +23,7 @@ h1 {
     letter-spacing: 1px;
     font-weight: 400;
     font-size: 45px;
+    margin: 0;
 }
 
 h2 {
