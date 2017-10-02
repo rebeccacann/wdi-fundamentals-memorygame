@@ -76,3 +76,20 @@ footer {
     font-weight: 500;
 }
 
+.copyright {
+    float: left;
+}
+
+.message {
+    float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+
