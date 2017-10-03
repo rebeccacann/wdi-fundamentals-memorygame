@@ -50,10 +50,11 @@ a {
     text-decoration: none;
     margin: 0 20px;
     color: white;
+    border-bottom: 2px solid transparent;
 }
 
 a:hover {
-
+    border-bottom: 2px #fff solid;
 }
 
 #click {
@@ -91,5 +92,10 @@ footer {
     clear: both;
     height: 0;
     font-size: 0;
+}
+
+.name {
+    color: #F15B31;
+    font-weight: 700;
 }
 
