@@ -6,10 +6,9 @@ var cardsInPlay = [];
 
 var cardOne = cards[1];
 cardsInPlay.push(cardOne);
-
 console.log("User flipped " + cardOne);
-console.log("User flipped " + cardFour);
 
 var cardTwo = cards[2];
 cardsInPlay.push(cardTwo);
+console.log("User flipped " + cardTwo);
 
