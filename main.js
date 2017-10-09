@@ -23,6 +23,7 @@ var cards = [
     cardImage: "images/king-of-diamonds.png"
 }   
 ];
+
 var cardsInPlay = [];
 
  var checkForMatch = function() {
@@ -34,12 +35,15 @@ var cardsInPlay = [];
  }
 
 var flipCard = function(cardId) {
-    console.log("User flipped " + cards[cardId]);
-    cardsInPlay.push(cards[cardId]);
+    console.log("User flipped " + cards[cardId].rank);
+    console.log(cards[cardId].cardImage);
+    console.log(cards[cardId].suit);
+    cardsInPlay.push(cards[cardId].rank);
     if (cardsInPlay.length === 2) {
         checkForMatch();
     }
 }
 flipCard(0);
 flipCard(1);
+
 
