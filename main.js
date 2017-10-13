@@ -50,10 +50,10 @@ var createBoard = function () {
   cardElement.setAttribute('src', 'images/back.png');
   cardElement.setAttribute('data-id', i);
   cardElement.addEventListener('click', flipCard);
+  /* Finally, use the appendChild() method to append the current cardElement to the game board (which has an id of game-board). */
   }
 }
 
-flipCard(0);
-flipCard(1);
+createBoard()
 
 
