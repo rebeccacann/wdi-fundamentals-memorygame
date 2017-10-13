@@ -27,6 +27,7 @@ var cards = [
 var cardsInPlay = [];
 
  var checkForMatch = function() {
+     this.setAttribute(cards[cardId].cardImage);
         if (cardsInPlay[0] === cardsInPlay[1]) {
             alert("You found a match!");
         } else {
@@ -34,11 +35,13 @@ var cardsInPlay = [];
         }
  }
 
-var flipCard = function(cardId) {
+var flipCard = function() {
+    this.getAttribute('data-id');
     console.log("User flipped " + cards[cardId].rank);
     console.log(cards[cardId].cardImage);
     console.log(cards[cardId].suit);
     cardsInPlay.push(cards[cardId].rank);
+    this.setAttribute(cards[cardId].cardImage);
     if (cardsInPlay.length === 2) {
         checkForMatch();
     }
